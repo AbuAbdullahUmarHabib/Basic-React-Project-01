@@ -1,23 +1,23 @@
-/*
-.counter {
+.btn {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
-  color: var(--accent);
-  background: var(--accent-bg);
-  border: 2px solid transparent;
+  color: black;
+  background: gainsboro;
+  border: 2px solid rgb(176, 176, 176);
   transition: border-color 0.3s;
   margin-bottom: 24px;
+  cursor: pointer;
 
   &:hover {
-    border-color: var(--accent-border);
+    border-color: rgb(12, 73, 1);
   }
   &:focus-visible {
     outline: 2px solid var(--accent);
     outline-offset: 2px;
   }
 }
-
+/*
 .hero {
   position: relative;
 
